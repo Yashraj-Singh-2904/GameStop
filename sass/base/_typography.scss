@@ -37,7 +37,7 @@
     color:transparent;
     transition: all .2s;
     letter-spacing: 2px;
-   padding:0 0 50px 0;
+   padding:0px 0 50px 0;
     &:hover{
         text-shadow: 0.4rem 0.4rem 0.5rem rgba($color-primary,0.4);
         cursor: pointer;
@@ -59,4 +59,25 @@ font-size: 1.6rem;
 font-weight:700;
 text-transform: uppercase;
 color:$color-primary;
+}
+
+.heading-secondary-1{
+    font-size:3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    background-image: linear-gradient(to right,$color-primary-light-1, $color-primary-dark);
+    -webkit-background-clip: text;
+    color:transparent;
+    transition: all .2s;
+    letter-spacing: 2px;
+   padding:200px 0 50px 0;
+    &:hover{
+        text-shadow: 0.4rem 0.4rem 0.5rem rgba($color-primary,0.4);
+        cursor: pointer;
+        transform:scale(1.01);
+        
+
+        
+    }
 }
